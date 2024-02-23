@@ -1,0 +1,168 @@
+body {
+    background: #F7F8F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+.shop {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-direction: column;
+}
+
+.navBar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: 64px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.categories {
+    display: flex;
+    width: 46%;
+    justify-content: space-between;
+    color: #000000;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    border-radius: 29px;
+    gap: 12px;
+    background: linear-gradient(0deg, #E7EAEE, #E7EAEE), linear-gradient(0deg, #F7F8F9, #F7F8F9);
+    border: 1px solid #E7EAEE;
+    color: #64748B;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.filter {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.filterText {
+    font-size: 16px;
+    color: #000000;
+    line-height: 20px;
+}
+
+.shoes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.shoe {
+    background: #FFFFFF;
+    padding: 1% 1% 2% 1%;
+    border-radius: 20px;
+    min-height: 34vh;
+    border: 1.5px solid transparent;
+    min-width: 20%;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+.shoe:hover {
+    border: 1.5px solid #6183E4;
+    box-shadow: 0% 1% 2% 0% #0000001A;
+}
+
+.photo img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.label {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #DC2626;
+}
+
+.name {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #000000;
+}
+
+.colors {
+    width: 100%;
+}
+
+.color {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+.price {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #000000;
+}
+
+.icon {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    padding: 2.5px 2.09px 2.5px 2.08px;
+}
+
+.icon img {
+    width: 100%;
+}
